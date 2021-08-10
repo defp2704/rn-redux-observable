@@ -1,0 +1,110 @@
+# OSX
+#
+.DS_Store
+.env
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+ios/Pods/
+
+# Android/IntelliJ
+#
+dist/
+.idea
+.gradle
+local.properties
+*.iml
+android/ifacerec/.project
+android/out
+android/app/bin/
+android/app/build/
+android/app/.settings
+android/app/.classpath
+android/computervision/.classpath
+android/computervision/.project
+android/computervision/.settings/
+android/aws-java-sdk
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+# *.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/README.md
+Gemfile.lock
+
+# Bundle artifact
+*.jsbundle
+
+# deletebuild
+delete_build.bat
+
+#coverage
+coverage/
+
+#rankone
+android/rankone/.project
+android/rankone/.classpath
+android/rankone/.settings
+android/rankone/bin
+
+# VSCode
+#
+.vscode/
+*-cmd
+# VS
+#
+.vs/
+
+# VIM
+*.swp
+
+# Builder
+builder/Outputs/*
+builder/Signing/*
+./changelog.txt
+
+#fastlane
+fastlane/builder/*
